@@ -42,7 +42,7 @@ const server = app.listen(PORT, () => {
 const socketio = require('socket.io')
 const io = socketio(server, {
   pingTimeout: 60000,
-  cors: { origin: "http://localhost:3000" },
+  cors: { origin: "https://chat-app-fzod.onrender.com" },
 });
 
 
